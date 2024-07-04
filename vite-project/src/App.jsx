@@ -16,7 +16,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Galleria />} />
         <Route path="/tvshows" element={<TvShows />} />
-        <Route path="/movie-details/:imdbID" element={MovieDetails} />
+        <Route path="/movie-details/:movieID" element={<MovieDetails />} />
       </Routes>
       <MyFooter />
     </BrowserRouter>
